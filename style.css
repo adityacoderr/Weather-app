@@ -1,0 +1,83 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     text-decoration: none;
+     list-style: none;
+     outline: none;
+}
+html, body{
+     height: 100%;
+     width: 100%;
+     display: flex;
+     justify-content: space-evenly;
+     flex-direction: column;
+
+     align-items: center;
+     background-color: #666666;
+}
+main{
+     height: 80%;
+     width: 90%;
+     background-color: #333;
+     border-radius: 40px;
+     box-shadow: 5px 9px 10px black;
+}
+main > h1{
+     color: rgb(27, 26, 26);
+     font-size: 30px;
+     text-align: center;
+     padding: 20px;
+     font-family: poppins light;
+}
+.dabba{
+     height: 50%;
+     width: 90%;
+     margin-top: 10% !important;
+     margin: auto;
+     background-color: #222;
+     border-radius: 50px;
+     box-shadow: 3px 5px 6px black;
+}
+
+.dabba>h2{
+     font-size: 30px;
+     color: rgb(21, 5, 5);
+     text-align: center;
+     padding: 10px;
+     font-family: poppins;
+}
+.dabba>h1{
+     font-size: 24px;
+     color: #a28a8a;
+     text-align: center;
+     padding: 8px;
+     text-transform: capitalize;
+     font-family: poppins light;
+}
+.data{
+     height: 50%;
+     width: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.data ul{
+     display: flex;
+     gap: 40px;
+}
+.data ul li{
+     display: flex;
+     align-items: center;
+     gap: 15px;
+     font-family: poppins light;
+     color: white;
+}
+.data ul li h2{
+     color: green;
+}
+footer{
+     font-size: 20px;
+     font-family: poppins light;
+     color: black;
+}
